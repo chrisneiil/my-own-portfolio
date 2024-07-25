@@ -11,8 +11,11 @@
             <span class="headline">¡Hola! Soy Crhistopher Adasme</span>
           </v-card-title>
           <v-card-text>
-            <p>Soy un Programador Full Stack con experiencia en el desarrollo de aplicaciones y servicios utilizando tecnologías como Java, Spring Boot, Vue.js, y MySQL. Actualmente, trabajo en Servicios Informáticos AionSoft Limitada, donde diseño y desarrollo soluciones tecnológicas innovadoras.</p>
-            <p>Mis habilidades incluyen el control de versiones con Git y Bitbucket, y la aplicación de metodologías ágiles como Scrum para garantizar la entrega de proyectos de alta calidad.</p>
+            <p>Soy un Programador Full Stack con experiencia en el desarrollo de aplicaciones y servicios utilizando tecnologías como Java,
+              Spring Boot, Vue.js, y MySQL. Actualmente, trabajo en Servicios Informáticos AionSoft Limitada,
+              donde diseño y desarrollo soluciones tecnológicas innovadoras.</p>
+            <p>Tengo conocimientos sobre el control de versiones con Git y Bitbucket,
+              y administrando mis repositorios utilizando herramientas como Github y Bitbucket.</p>
           </v-card-text>
         </v-card>
       </v-col>
