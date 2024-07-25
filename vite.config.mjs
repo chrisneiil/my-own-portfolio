@@ -46,7 +46,6 @@ export default defineConfig({
       vueTemplate: true,
     }),
   ],
-  base:'https://chrisneiil.github.io/my-own-portfolio/',
   define: { 'process.env': {} },
   resolve: {
     alias: {
