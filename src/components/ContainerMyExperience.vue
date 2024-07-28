@@ -1,24 +1,25 @@
 <template>
-  <v-container class="my-5">
+  <v-container>
     <v-row justify="center">
-      <v-col cols="12" md="12" lg="12">
-        <v-card class="pa-5" outlined>
+      <v-col cols="12" sm="6">
+        <v-card class="py-2" outlined>
           <v-card-title>
             <v-icon left>mdi-briefcase</v-icon>
             <span class="headline">Experiencia Profesional</span>
           </v-card-title>
           <v-card-text>
-            <v-timeline align-top>
+            <v-timeline density="compact" align="start" side="end">
               <v-timeline-item
+                density="compact"
                 v-for="(item, index) in experience"
                 :key="index"
                 :color="item.color"
                 :icon="item.icon"
               >
-                <v-card class="elevation-2 hover-card pl-6" outlined>
+                <v-card density="compact" class="elevation-2 hover-card pl-6" outlined>
                   <v-card-title class="headline">{{ item.position }}</v-card-title>
                   <v-card-subtitle>{{ item.period }}</v-card-subtitle>
-                  <v-card-text>
+                  <v-card-text >
                     <strong>{{ item.company }}</strong>
                     <ul>
                       <li v-for="(duty, i) in item.duties" :key="i">{{ duty }}</li>
@@ -84,7 +85,7 @@ const experience = [
 <style scoped>
 .headline {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .hover-card {
@@ -109,7 +110,7 @@ const experience = [
 .technologies-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
 }
 
 .technology-item {
@@ -118,5 +119,24 @@ const experience = [
   margin: 5px;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 600px) {
+  .v-card-title {
+    font-size: 18px;
+  }
+
+  .headline {
+    font-size: 16px;
+  }
+
+  .v-card-subtitle {
+    font-size: 14px;
+  }
+
+  .technology-item {
+    font-size: 14px;
+    padding: 3px 5px;
+  }
 }
 </style>

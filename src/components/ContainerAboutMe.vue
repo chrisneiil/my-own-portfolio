@@ -5,11 +5,11 @@
 <template>
   <v-container class="my-5">
     <v-row justify="center">
-      <v-col cols="6" md="8" lg="12">
+      <v-col cols="12" sm="9">
         <v-card class="pa-5" outlined>
-          <v-card-title>
-            <span class="headline">¡Hola! Soy Crhistopher Adasme</span>
-          </v-card-title>
+          <h2 class="ml-5">
+            ¡Hola! Soy Crhistopher Adasme
+          </h2>
           <v-card-text>
             <p>Soy un Programador Full Stack con experiencia en el desarrollo de aplicaciones y servicios utilizando tecnologías como Java,
               Spring Boot, Vue.js, y MySQL. Actualmente, trabajo en Servicios Informáticos AionSoft Limitada,

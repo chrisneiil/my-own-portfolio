@@ -3,14 +3,16 @@
 import ContainerAboutMe from "@/components/ContainerAboutMe.vue";
 import ContainerMyContact from "@/components/ContainerMyContact.vue";
 import ContainerMyEducation from "@/components/ContainerMyEducation.vue";
+import StarBackgroundComponent from "@/components/StarBackgroundComponent.vue";
 </script>
 
 <template>
-  <v-container class="fill-height justify-center">
+  <div class="fill-height justify-center">
+    <StarBackgroundComponent></StarBackgroundComponent>
     <div>
       <container-my-education></container-my-education>
     </div>
-  </v-container>
+  </div>
 </template>
 
 <style scoped>

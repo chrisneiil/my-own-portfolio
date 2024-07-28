@@ -1,14 +1,14 @@
 <template>
   <v-container class="my-5">
     <v-row justify="center">
-      <v-col cols="6" md="8" lg="12">
-        <v-card class="pa-5 hover-card" outlined>
+      <v-col cols="12" sm="6" md="6">
+        <v-card class="py-5 hover-card" outlined>
           <v-card-title>
             <v-icon left>mdi-school</v-icon>
             <span class="headline">Educación</span>
           </v-card-title>
-          <v-card-text>
-            <v-timeline align-top>
+          <v-card-text class="mx-0 px-0 pr-3">
+            <v-timeline align="start" side="end">
               <v-timeline-item
                 v-for="(item, index) in education"
                 :key="index"
@@ -58,7 +58,7 @@ const education = [
 <style scoped>
 .headline {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .hover-card {
@@ -78,5 +78,19 @@ const education = [
 
 .v-icon {
   margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .v-card-title {
+    font-size: 18px;
+  }
+
+  .headline {
+    font-size: 16px;
+  }
+
+  .v-card-subtitle {
+    font-size: 14px;
+  }
 }
 </style>

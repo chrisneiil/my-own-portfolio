@@ -1,11 +1,11 @@
 <template>
-  <v-container class="my-5">
+  <v-container class="">
     <v-row justify="center">
-      <v-col cols="12" md="10" lg="8">
-        <v-card class="pa-5" outlined>
+      <v-col cols="12" md="10" lg="8" sm="8" >
+        <v-card class="" outlined>
           <v-card-title>
             <v-icon left>mdi-folder-open</v-icon>
-            <span class="headline">Proyectos Realizados por Mí</span>
+            <span class="headline">Mis Proyectos</span>
           </v-card-title>
           <v-card-text>
             <div v-if="myProjects.length > 0">
@@ -40,11 +40,11 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="12" md="10" lg="8" class="mt-5">
-        <v-card class="pa-5" outlined>
+      <v-col cols="12"  md="10" lg="8" sm="8" class="mt-5">
+        <v-card class="" outlined>
           <v-card-title>
             <v-icon left>mdi-folder-account</v-icon>
-            <span class="headline">Proyectos en los que he Colaborado</span>
+            <span class="headline">Proyectos Colaborado</span>
           </v-card-title>
           <v-card-text>
             <div v-if="collaboratedProjects.length > 0">

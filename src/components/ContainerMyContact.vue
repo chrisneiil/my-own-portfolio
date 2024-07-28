@@ -1,7 +1,7 @@
 <template>
-  <v-container class="my-5">
+  <v-container class="pb-4 pt-0 mt-0">
     <v-row justify="center">
-      <v-col cols="4" md="4" lg="4">
+      <v-col cols="12" sm="3">
         <v-card class="pa-5 hover-card" outlined @click="openLink('https://github.com/chrisneiil')">
           <v-card-title>
             <span class="headline">GitHub</span>
@@ -14,7 +14,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="4" md="4" lg="4">
+      <v-col cols="12" sm="3">
         <v-card class="pa-5 hover-card" outlined @click="openLink('https://www.linkedin.com/in/crhistopher-neil-adasme-cortes-a15b942a6/')">
           <v-card-title>
             <span class="headline">Linkedin</span>
@@ -27,7 +27,7 @@
           </v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="4" md="4" lg="4">
+      <v-col cols="12" sm="3">
         <v-card class="pa-5 hover-card" outlined @click="openLink('mailto:adasmechristopher12@gmail.com')">
           <v-card-title>
             <span class="headline">Gmail</span>
